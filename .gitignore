@@ -1,0 +1,7 @@
+node_modules/
+package.json
+package-lock.json
+secrets.json
+giveaways.json
+generateImageSNMY.js
+commands/
