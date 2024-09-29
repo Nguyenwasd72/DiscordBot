@@ -1,7 +1,7 @@
 {
   "name": "nodejsdiscordbot",
   "version": "1.0.0",
-  "description": "A Discord bot made by knguyen69",
+  "description": "A Discord bot made by @knguyen69",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
