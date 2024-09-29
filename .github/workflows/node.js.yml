@@ -14,12 +14,16 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    defaults:
+        run:
+            working-directory: '.'
+
     steps:
     - uses: actions/checkout@v4
     - name: Use Node.js 16.2
       uses: actions/setup-node@v4
       with:
-        cache-dependency-path: ./package-lock.json
+        cache-dependency-path: '**/package-lock.json'
         node-version: 16.2
         cache: 'npm'
     - run: npm install
