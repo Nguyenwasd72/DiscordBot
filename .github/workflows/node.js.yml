@@ -18,6 +18,9 @@ jobs:
         run:
             working-directory: '.'
 
+    env:
+        SECRETS_FILE: ${{ secrets.SECRETS_FILE }}
+
     steps:
     - uses: actions/checkout@v4
     - name: Use Node.js 16.2
